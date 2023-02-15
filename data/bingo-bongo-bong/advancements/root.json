@@ -1,0 +1,91 @@
+{
+	"display": {
+		"title": {
+			"text": "Bingo Bongo"
+		},
+		"description": {
+			"text": "Head out to try your luck."
+		},
+		"icon": {
+			"item": "minecraft:filled_map"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"Positive X": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 50,
+								"max": 100000
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		},
+		"Negative X": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -100000,
+								"max": -50
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		},
+		"Positive Z": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"z": {
+								"min": 50,
+								"max": 100000
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		},
+		"Negative Z": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"z": {
+								"min": -100000,
+								"max": -50
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Positive X",
+			"Negative X",
+			"Positive Z",
+			"Negative Z"
+		]
+	]
+}

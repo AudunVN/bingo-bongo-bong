@@ -1,0 +1,31 @@
+{
+	"display": {
+		"title": {
+			"text": "Where Are We?"
+		},
+		"description": {
+			"text": "Exit a different nether portal than the one you came in."
+		},
+		"icon": {
+			"item": "minecraft:obsidian"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Exit Different Portal": {
+			"trigger": "minecraft:nether_travel",
+			"conditions": {
+				"distance": {
+					"absolute": {
+						"min": 10,
+						"max": 100000
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

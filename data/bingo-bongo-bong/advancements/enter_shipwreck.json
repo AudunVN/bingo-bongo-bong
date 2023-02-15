@@ -1,0 +1,31 @@
+{
+	"display": {
+		"title": {
+			"text": "Shipwrecked"
+		},
+		"description": {
+			"text": "Enter a sunken ship."
+		},
+		"icon": {
+			"item": "minecraft:birch_boat"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Player Enters Ship": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "shipwreck",
+						"dimension": "overworld"
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

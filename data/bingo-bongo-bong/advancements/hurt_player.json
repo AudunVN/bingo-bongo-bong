@@ -1,0 +1,45 @@
+{
+	"display": {
+		"title": {
+			"text": "I Hate People",
+			"color": "gold"
+		},
+		"description": {
+			"text": "Get up close and personal with another player."
+		},
+		"icon": {
+			"item": "minecraft:iron_axe"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Player Hurts Player": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 1,
+						"max": 100000
+					},
+					"source_entity": {
+						"type": "minecraft:player"
+					}
+				},
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

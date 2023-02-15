@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": {
+			"text": "Resting In Peace",
+			"color": "gray"
+		},
+		"description": {
+			"text": "Get killed by someone. Or something. Entities only, no drowning or falling for this one."
+		},
+		"icon": {
+			"item": "minecraft:lily_of_the_valley"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Player Killed": {
+			"trigger": "minecraft:entity_killed_player"
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

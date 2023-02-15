@@ -1,0 +1,92 @@
+{
+	"display": {
+		"title": {
+			"text": "I'm Not Lost"
+		},
+		"description": {
+			"text": "Travel at least 900 blocks away from spawn (0,0)."
+		},
+		"icon": {
+			"item": "minecraft:compass"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Positive X": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 900,
+								"max": 100000
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		},
+		"Negative X": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -100000,
+								"max": -900
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		},
+		"Positive Z": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"z": {
+								"min": 900,
+								"max": 100000
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		},
+		"Negative Z": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"z": {
+								"min": -100000,
+								"max": -900
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Positive X",
+			"Negative X",
+			"Positive Z",
+			"Negative Z"
+		]
+	],
+	"parent": "bingo-bongo-bong:root"
+}

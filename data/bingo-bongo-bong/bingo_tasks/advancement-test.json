@@ -1,0 +1,134 @@
+{
+	"tasks": [
+		{
+			"type": "bongo.advancement",
+			"weight": 1,
+			"value": "minecraft:nether/obtain_crying_obsidian"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 1,
+			"value": "minecraft:nether/distract_piglin"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 1,
+			"value": "minecraft:adventure/avoid_vibration"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_player_item"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:hook_player"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:kill_player"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:hurt_player"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:player_killed"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:enter_shipwreck"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:player_travels_900_blocks"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:travel_in_nether"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:player_takes_big_damage"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:go_fast"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:jagged_peaks"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:beach"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:windswept_savanna"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:windswept_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:jungle"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:deep_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:stony_shore"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:snowy_beach"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:dark_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:snowy_taiga"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:savanna"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:savanna_plateau"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 1,
+			"value": "minecraft:badlands"
+		}
+	]
+}
