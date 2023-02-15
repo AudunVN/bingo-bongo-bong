@@ -1,0 +1,72 @@
+{
+	"tasks": [
+		{
+			"type": "bongo.group",
+			"_comment": "Nether tasks",
+			"weight": 4,
+			"tasks": [
+				{
+					"type": "bongo.item",
+					"weight": 9,
+					"value": {
+						"item": "minecraft:golden_apple"
+					}
+				},
+				{
+					"type": "bongo.item",
+					"weight": 1,
+					"value": {
+						"item": "minecraft:enchanted_golden_apple"
+					}
+				}
+			]
+		},
+		{
+			"type": "bongo.group",
+			"_comment": "Nether tasks",
+			"weight": 4,
+			"tasks": [
+				{
+					"type": "bongo.stat",
+					"_comment": "Walk 1000 blocks",
+					"value": {
+						"category": "custom",
+						"stat": "minecraft:walk_one_cm",
+						"value": 1000000
+					}
+				},
+				{
+					"type": "bongo.item",
+					"weight": 1,
+					"value": {
+						"item": "minecraft:enchanted_golden_apple"
+					}
+				}
+			]
+		},
+		{
+			"type": "bongo.group",
+			"_comment": "Overworld Biomes",
+			"weight": 4,
+			"tasks": [
+				{
+					"type": "bongo.stat",
+					"_comment": "Walk 1000 blocks",
+					"value": {
+						"category": "custom",
+						"stat": "minecraft:walk_one_cm",
+						"value": 1000000
+					}
+				},
+				{
+					"type": "bongo.item",
+					"weight": 1,
+					"value": {
+						"item": "minecraft:enchanted_golden_apple"
+					}
+				}
+			]
+		}
+	]
+}
+
