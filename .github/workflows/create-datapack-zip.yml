@@ -19,5 +19,8 @@ jobs:
         uses: ncipollo/release-action@v1.12.0
         with:
           tag: latest
+          prerelease: true
+          allowUpdates: true
+          replacesArtifacts: true
           artifacts: "bingo-bongo-bong.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
