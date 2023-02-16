@@ -49,6 +49,11 @@ inputTasks.forEach(task => {
 				item: resourceIdentifier[1] + ":" + resourceIdentifier[2]
 			}
 		} else if (resourceIdentifier[0] === "entity") {
+			if (typeof resourceIdentifier[3] !== "undefined") {
+				console.log("Skipped " + task.internalName + ", subitem");
+				return;
+			}
+
 			taskObject.type = "bongo.entity";
 			taskObject.weight = task.weight;
 			taskObject.value = resourceIdentifier[1] + ":" + resourceIdentifier[2];
