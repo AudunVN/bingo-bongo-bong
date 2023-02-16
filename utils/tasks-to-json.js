@@ -31,6 +31,14 @@ inputTasks.forEach(task => {
 		value: null
 	};
 
+	if (task.ingameName) {
+		taskObject._name = task.ingameName;
+	}
+
+	if (task.difficulty) {
+		taskObject._difficulty = task.difficulty
+	}
+
 	if (task.weight && task.weight !== 0) {
 		if (resourceIdentifier[0] === "item" || resourceIdentifier[0] === "block") {
 			if (typeof resourceIdentifier[3] !== "undefined") {
@@ -65,4 +73,4 @@ inputTasks.forEach(task => {
 	}
 });
 
-fs.writeFileSync(outputPath, JSON.stringify({tasks: outputTasks}, null, "\t"), () => {console.log(`Finished parsing task file, generated ${outputTasks.length} tasks`)});
+fs.writeFile(outputPath, JSON.stringify({tasks: outputTasks}, null, "\t"), () => {console.log(`Finished parsing task file, generated ${outputTasks.length} tasks`)});
