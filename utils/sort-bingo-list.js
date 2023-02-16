@@ -1,11 +1,14 @@
 const fs = require('fs');
 
-let list = require("./bingo-bongo-bong/data/bingo-bongo-bong/bingo_tasks/60-min-hard.json");
+const inputPath = process.argv[2];
+const outputPath = process.argv[3];
 
-let tasks = list.tasks;
+const input = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
+
+let tasks = input.tasks;
 
 tasks.sort((a, b) => {
 	return a.type > b.type;
 });
 
-fs.writeFile("sorted.json", JSON.stringify({tasks}, null, "\t"), () => {console.log("Finished sorting")});
+fs.writeFile(outputPath, JSON.stringify({tasks}, null, "\t"), () => {console.log(`Finished sorting ${tasks.length} tasks`)});
