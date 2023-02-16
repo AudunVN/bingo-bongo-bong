@@ -3,6 +3,8 @@ const fs = require('fs');
 const inputPath = process.argv[2];
 const outputPath = process.argv[3];
 
+const items = require("./1.19.2-item-list.json");
+
 if (typeof inputPath === "undefined" || typeof outputPath === "undefined") {
 	console.error("Please specify an input and output path. Usage: tasks-to-json.js inputPath outputPath");
 	process.exit(1);
@@ -36,6 +38,11 @@ inputTasks.forEach(task => {
 				return;
 			}
 
+			if (!items.includes(resourceIdentifier[2])) {
+				console.log("Skipped " + task.internalName + ", not on item list");
+				return;
+			}
+
 			taskObject.type = "bongo.item";
 			taskObject.weight = task.weight;
 			taskObject.value = {
@@ -48,7 +55,7 @@ inputTasks.forEach(task => {
 		} else if (resourceIdentifier[0] === "advancements") {
 			taskObject.type = "bongo.advancement";
 			taskObject.weight = task.weight;
-			taskObject.value = "minecraft:" + resourceIdentifier[2] + "/" + resourceIdentifier[3];
+			taskObject.value = "minecraft:" + resourceIdentifier[1] + "/" + resourceIdentifier[2];
 		} else if (resourceIdentifier[0] === "biome") {
 			taskObject.type = "bongo.biome";
 			taskObject.weight = task.weight;
@@ -57,6 +64,9 @@ inputTasks.forEach(task => {
 			taskObject.type = "bongo.effect";
 			taskObject.weight = task.weight;
 			taskObject.value = resourceIdentifier[1] + ":" + resourceIdentifier[2];
+		} else {
+			console.log("Skipped " + task.internalName + ", unknown task type");
+			return;
 		}
 
 		outputTasks.push(taskObject);
