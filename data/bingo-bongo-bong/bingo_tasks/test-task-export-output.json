@@ -4930,21 +4930,21 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:ochre_froglight"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:verdant_froglight"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:pearlescent_froglight"
 			}
