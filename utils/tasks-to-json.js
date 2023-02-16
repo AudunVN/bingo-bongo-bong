@@ -26,18 +26,8 @@ inputTasks.forEach(task => {
 	const taskObject = {
 		type: null,
 		weight: null,
-		_name: null,
-		_difficulty: null,
 		value: null
 	};
-
-	if (task.ingameName) {
-		taskObject._name = task.ingameName;
-	}
-
-	if (task.difficulty) {
-		taskObject._difficulty = task.difficulty
-	}
 
 	if (task.weight && task.weight !== 0) {
 		if (resourceIdentifier[0] === "item" || resourceIdentifier[0] === "block") {
