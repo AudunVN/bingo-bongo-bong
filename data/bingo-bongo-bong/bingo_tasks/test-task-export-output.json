@@ -317,21 +317,21 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 30,
+			"weight": 15,
 			"value": {
 				"item": "minecraft:nether_gold_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 30,
+			"weight": 15,
 			"value": {
 				"item": "minecraft:iron_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 30,
+			"weight": 15,
 			"value": {
 				"item": "minecraft:deepslate_iron_ore"
 			}
@@ -2893,7 +2893,7 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 15,
 			"value": {
 				"item": "minecraft:nether_quartz_ore"
 			}
@@ -2984,14 +2984,14 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 40,
+			"weight": 25,
 			"value": {
 				"item": "minecraft:nether_wart_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 30,
+			"weight": 25,
 			"value": {
 				"item": "minecraft:red_nether_bricks"
 			}
@@ -3446,70 +3446,70 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:tube_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:brain_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:bubble_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:fire_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:horn_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:tube_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:brain_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:bubble_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:fire_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:horn_coral"
 			}
@@ -3551,35 +3551,35 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:tube_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:brain_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:bubble_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:fire_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:horn_coral_fan"
 			}
@@ -3719,7 +3719,7 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 40,
+			"weight": 25,
 			"value": {
 				"item": "minecraft:red_nether_brick_stairs"
 			}
@@ -3803,7 +3803,7 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 40,
+			"weight": 25,
 			"value": {
 				"item": "minecraft:red_nether_brick_slab"
 			}
@@ -3887,7 +3887,7 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 40,
+			"weight": 25,
 			"value": {
 				"item": "minecraft:red_nether_brick_wall"
 			}
@@ -5903,7 +5903,7 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 15,
 			"value": {
 				"item": "minecraft:recovery_compass"
 			}
@@ -7250,88 +7250,83 @@
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:mining_fatigue"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:strength"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:instant_health"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:instant_damage"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 60,
+			"weight": 30,
 			"value": "minecraft:jump_boost"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:nausea"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:regeneration"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:fire_resistance"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:water_breathing"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:invisibility"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:blindness"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:night_vision"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 25,
+			"weight": 15,
 			"value": "minecraft:hunger"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:weakness"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:poison"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:wither"
-		},
-		{
-			"type": "bongo.effect",
-			"weight": 25,
-			"value": "minecraft:health_boost"
 		},
 		{
 			"type": "bongo.effect",
@@ -7345,12 +7340,12 @@
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:bad_omen"
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:darkness"
 		},
 		{
@@ -7367,17 +7362,17 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:adventure/bullseye"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:adventure/fall_from_world_height"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:adventure/kill_mob_near_sculk_catalyst"
 		},
 		{
@@ -7387,17 +7382,17 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:adventure/spyglass_at_parrot"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:adventure/spyglass_at_ghast"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:adventure/honey_block_slide"
 		},
 		{
@@ -7432,12 +7427,12 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:adventure/sniper_duel"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:adventure/summon_iron_golem"
 		},
 		{
@@ -7457,17 +7452,17 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 30,
+			"weight": 25,
 			"value": "minecraft:adventure/throw_trident"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:adventure/voluntary_exile"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:adventure/whos_the_pillager_now"
 		},
 		{
@@ -7487,12 +7482,12 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 30,
+			"weight": 25,
 			"value": "minecraft:husbandry/make_a_sign_glow"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:husbandry/ride_a_boat_with_a_goat"
 		},
 		{
@@ -7502,7 +7497,7 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:husbandry/axolotl_in_a_bucket"
 		},
 		{
@@ -7527,7 +7522,7 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:husbandry/tame_an_animal"
 		},
 		{
@@ -7542,22 +7537,22 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 30,
+			"weight": 25,
 			"value": "minecraft:husbandry/safely_harvest_honey"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 30,
+			"weight": 25,
 			"value": "minecraft:husbandry/silk_touch_nest"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:husbandry/wax_on"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:husbandry/wax_off"
 		},
 		{
@@ -7567,17 +7562,17 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:nether/brew_potion"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 100,
+			"weight": 60,
 			"value": "minecraft:nether/find_fortress"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 100,
+			"weight": 30,
 			"value": "minecraft:nether/get_wither_skull"
 		},
 		{
@@ -7587,12 +7582,12 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:nether/return_to_sender"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 30,
+			"weight": 25,
 			"value": "minecraft:nether/root"
 		},
 		{
@@ -7602,12 +7597,12 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 100,
+			"weight": 60,
 			"value": "minecraft:nether/obtain_ancient_debris"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:nether/use_lodestone"
 		},
 		{
@@ -7617,7 +7612,7 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:nether/charge_respawn_anchor"
 		},
 		{
@@ -7632,37 +7627,37 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 100,
+			"weight": 40,
 			"value": "minecraft:nether/explore_nether"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 100,
+			"weight": 60,
 			"value": "minecraft:nether/find_bastion"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 100,
+			"weight": 60,
 			"value": "minecraft:nether/loot_bastion"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 30,
 			"value": "minecraft:nether/distract_piglin"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 40,
+			"weight": 25,
 			"value": "minecraft:story/cure_zombie_villager"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 25,
+			"weight": 15,
 			"value": "minecraft:story/deflect_arrow"
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:story/enchant_item"
 		},
 		{
@@ -7687,7 +7682,7 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:story/mine_diamond"
 		},
 		{
@@ -7707,7 +7702,7 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 60,
+			"weight": 40,
 			"value": "minecraft:story/shiny_gear"
 		},
 		{
@@ -7719,6 +7714,291 @@
 			"type": "bongo.advancement",
 			"weight": 10,
 			"value": "minecraft:story/upgrade_tools"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:badlands"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:bamboo_jungle"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:basalt_deltas"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:beach"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:birch_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:cold_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:crimson_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:dark_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:deep_cold_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 150,
+			"value": "minecraft:deep_dark"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:deep_frozen_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:deep_lukewarm_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:deep_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:desert"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:dripstone_caves"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:old_growth_birch_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:old_growth_pine_taiga"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:old_growth_spruce_taiga"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:eroded_badlands"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:flower_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:frozen_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:frozen_peaks"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:frozen_river"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:grove"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:ice_spikes"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:jagged_peaks"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:jungle"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:lukewarm_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:lush_caves"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:mangrove_swamp"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:meadow"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:mushroom_fields"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:nether_wastes"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:plains"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:river"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:savanna_plateau"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:savanna"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:snowy_beach"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:snowy_plains"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:snowy_slopes"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:snowy_taiga"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:soul_sand_valley"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:sparse_jungle"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:stony_peaks"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:stony_shore"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:sunflower_plains"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:swamp"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:taiga"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:warm_ocean"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:warped_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:windswept_forest"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:windswept_gravelly_hills"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:windswept_hills"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:windswept_savanna"
+		},
+		{
+			"type": "bongo.biome",
+			"weight": 40,
+			"value": "minecraft:wooded_badlands"
 		}
 	]
 }
