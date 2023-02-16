@@ -34,7 +34,7 @@ inputTasks.forEach(task => {
 	if (task.weight && task.weight !== 0) {
 		if (resourceIdentifier[0] === "item" || resourceIdentifier[0] === "block") {
 			if (typeof resourceIdentifier[3] !== "undefined") {
-				console.log("Skipped " + task.internalName);
+				console.log("Skipped " + task.internalName + ", subitem");
 				return;
 			}
 
