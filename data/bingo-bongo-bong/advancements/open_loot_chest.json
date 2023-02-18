@@ -9,11 +9,10 @@
 		"icon": {
 			"item": "minecraft:chest"
 		},
-		"frame": "challenge",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false,
-		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
 	},
 	"criteria": {
 		"abandoned_mineshaft": {
