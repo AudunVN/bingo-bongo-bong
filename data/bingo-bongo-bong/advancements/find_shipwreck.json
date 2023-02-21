@@ -15,7 +15,18 @@
 		"hidden": false
 	},
 	"criteria": {
-		"Player Enters Ship": {
+		"Player Finds Shipwreck": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "shipwreck_beached",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Underwater Shipwreck": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
@@ -27,5 +38,11 @@
 			}
 		}
 	},
+	"requirements": [
+		[
+			"Player Finds Shipwreck",
+			"Player Finds Underwater Shipwreck"
+		]
+	],
 	"parent": "bingo-bongo-bong:root"
 }

@@ -69,6 +69,10 @@ inputTasks.forEach(task => {
 			taskObject.type = "bongo.effect";
 			taskObject.weight = task.weight;
 			taskObject.value = resourceIdentifier[1] + ":" + resourceIdentifier[2];
+		} else if (task.internalName.startsWith("bingo-bongo-bong:")) {
+			taskObject.type = "bongo.advancement";
+			taskObject.weight = task.weight;
+			taskObject.value = task.internalName;
 		} else {
 			console.log("Skipped " + task.internalName + ", unknown task type");
 			return;

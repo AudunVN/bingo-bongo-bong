@@ -1,0 +1,108 @@
+{
+	"display": {
+		"title": {
+			"text": "Now You're Thinking With Portals"
+		},
+		"description": {
+			"text": "Find an abandoned portal."
+		},
+		"icon": {
+			"item": "minecraft:crying_obsidian"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Player Finds Ruined Portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Ruined Desert Portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_desert",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Ruined Jungle Portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_jungle_portal",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Ruined Mountain Portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_mountain",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Ruined Nether Portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_nether",
+						"dimension": "the_nether"
+					}
+				}
+			}
+		},
+		"Player Finds Ruined Ocean Portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_ocean",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Ruined Swamp Portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_swamp",
+						"dimension": "overworld"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Player Finds Ruined Portal",
+			"Player Finds Ruined Desert Portal",
+			"Player Finds Ruined Jungle Portal",
+			"Player Finds Ruined Mountain Portal",
+			"Player Finds Ruined Nether Portal",
+			"Player Finds Ruined Ocean Portal",
+			"Player Finds Ruined Swamp Portal"
+		]
+	],
+	"parent": "bingo-bongo-bong:root"
+}

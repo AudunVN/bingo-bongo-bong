@@ -1,0 +1,36 @@
+{
+	"display": {
+		"title": {
+			"text": "What's Up?"
+		},
+		"description": {
+			"text": "I don't know, I'm just an advancement description. Why don't you go up there and find out for yourself?"
+		},
+		"icon": {
+			"item": "minecraft:spruce_boat"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Be At Build Height Limit": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"min": 315,
+								"max": 100000
+							}
+						}
+					},
+					"dimension": "overworld"
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

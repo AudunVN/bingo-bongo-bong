@@ -4412,23 +4412,9 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 5,
+			"weight": 1,
 			"value": {
 				"item": "minecraft:exposed_copper"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:weathered_copper"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:oxidized_copper"
 			}
 		},
 		{
@@ -4440,23 +4426,9 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 5,
+			"weight": 1,
 			"value": {
 				"item": "minecraft:exposed_cut_copper"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:weathered_cut_copper"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:oxidized_cut_copper"
 			}
 		},
 		{
@@ -4468,23 +4440,9 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 5,
+			"weight": 1,
 			"value": {
 				"item": "minecraft:exposed_cut_copper_stairs"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:weathered_cut_copper_stairs"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:oxidized_cut_copper_stairs"
 			}
 		},
 		{
@@ -4505,42 +4463,14 @@
 			"type": "bongo.item",
 			"weight": 5,
 			"value": {
-				"item": "minecraft:weathered_cut_copper_slab"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:oxidized_cut_copper_slab"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
 				"item": "minecraft:waxed_copper_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 5,
+			"weight": 1,
 			"value": {
 				"item": "minecraft:waxed_exposed_copper"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:waxed_weathered_copper"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:waxed_oxidized_copper"
 			}
 		},
 		{
@@ -4552,23 +4482,9 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 5,
+			"weight": 1,
 			"value": {
 				"item": "minecraft:waxed_exposed_cut_copper"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:waxed_weathered_cut_copper"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:waxed_oxidized_cut_copper"
 			}
 		},
 		{
@@ -4580,23 +4496,9 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 5,
+			"weight": 1,
 			"value": {
 				"item": "minecraft:waxed_exposed_cut_copper_stairs"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:waxed_weathered_cut_copper_stairs"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:waxed_oxidized_cut_copper_stairs"
 			}
 		},
 		{
@@ -4608,23 +4510,9 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 5,
+			"weight": 1,
 			"value": {
 				"item": "minecraft:waxed_exposed_cut_copper_slab"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:waxed_weathered_cut_copper_slab"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 5,
-			"value": {
-				"item": "minecraft:waxed_oxidized_cut_copper_slab"
 			}
 		},
 		{
@@ -6736,20 +6624,6 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
-			"value": {
-				"item": "minecraft:scute"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 25,
-			"value": {
-				"item": "minecraft:turtle_helmet"
-			}
-		},
-		{
-			"type": "bongo.item",
 			"weight": 40,
 			"value": {
 				"item": "minecraft:nautilus_shell"
@@ -7457,11 +7331,6 @@
 		},
 		{
 			"type": "bongo.advancement",
-			"weight": 15,
-			"value": "minecraft:husbandry/netherite_hoe"
-		},
-		{
-			"type": "bongo.advancement",
 			"weight": 25,
 			"value": "minecraft:husbandry/safely_harvest_honey"
 		},
@@ -7924,6 +7793,56 @@
 			"type": "bongo.biome",
 			"weight": 40,
 			"value": "minecraft:wooded_badlands"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 200,
+			"value": "bingo-bongo-bong:player_takes_big_damage"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 200,
+			"value": "bingo-bongo-bong:kill_player"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 200,
+			"value": "bingo-bongo-bong:player_killed"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 5,
+			"value": "bingo-bongo-bong:player_travels_900_blocks"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 5,
+			"value": "bingo-bongo-bong:open_loot_chest"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 200,
+			"value": "bingo-bongo-bong:go_fast"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 40,
+			"value": "bingo-bongo-bong:find_shipwreck"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 40,
+			"value": "bingo-bongo-bong:find_ruined_portal"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 200,
+			"value": "bingo-bongo-bong:travel_in_nether"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 200,
+			"value": "bingo-bongo-bong:visit_height_limit"
 		}
 	]
 }
