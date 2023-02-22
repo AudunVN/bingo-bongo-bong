@@ -1,0 +1,84 @@
+{
+	"display": {
+		"title": {
+			"text": "Villager"
+		},
+		"description": {
+			"text": "Find a village."
+		},
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Player Finds Desert Village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_desert",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Plains Village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_plains",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Savanna Village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_savanna",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Snowy Village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_snowy",
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"Player Finds Taiga Village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_taiga",
+						"dimension": "overworld"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Player Finds Desert Village",
+			"Player Finds Plains Village",
+			"Player Finds Savanna Village",
+			"Player Finds Snowy Village",
+			"Player Finds Taiga Village"
+		]
+	],
+	"parent": "bingo-bongo-bong:root"
+}
