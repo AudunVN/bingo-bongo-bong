@@ -303,49 +303,49 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:gold_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:deepslate_gold_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:nether_gold_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:iron_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:deepslate_iron_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 30,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:coal_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 30,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:deepslate_coal_ore"
 			}
@@ -1031,21 +1031,21 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:red_mushroom_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:brown_mushroom_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:mushroom_stem"
 			}
@@ -1388,14 +1388,14 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:diamond_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:deepslate_diamond_ore"
 			}
@@ -1626,14 +1626,14 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:redstone_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:deepslate_redstone_ore"
 			}
@@ -1822,21 +1822,21 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:ice"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:packed_ice"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:blue_ice"
 			}
@@ -2242,14 +2242,14 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:lapis_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:deepslate_lapis_ore"
 			}
@@ -2809,7 +2809,7 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 15,
 			"value": {
 				"item": "minecraft:mycelium"
 			}
@@ -2837,14 +2837,14 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:emerald_ore"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:deepslate_emerald_ore"
 			}
@@ -2893,7 +2893,7 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:nether_quartz_ore"
 			}
@@ -3348,7 +3348,7 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:turtle_egg"
 			}
@@ -3411,210 +3411,210 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_tube_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_brain_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_bubble_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_fire_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_horn_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:tube_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:brain_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:bubble_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:fire_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:horn_coral_block"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:tube_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:brain_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:bubble_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:fire_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:horn_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_tube_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_brain_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_bubble_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_fire_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_horn_coral"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:tube_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:brain_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:bubble_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:fire_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:horn_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_tube_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_brain_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_bubble_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_fire_coral_fan"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 15,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:dead_horn_coral_fan"
 			}
@@ -4006,14 +4006,14 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:beehive"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 10,
 			"value": {
 				"item": "minecraft:bee_nest"
 			}
@@ -4328,21 +4328,21 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:small_amethyst_bud"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:medium_amethyst_bud"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:large_amethyst_bud"
 			}
@@ -4790,49 +4790,49 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 40,
+			"weight": 30,
 			"value": {
 				"item": "minecraft:sculk"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 40,
+			"weight": 30,
 			"value": {
 				"item": "minecraft:sculk_catalyst"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 40,
+			"weight": 30,
 			"value": {
 				"item": "minecraft:sculk_shrieker"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 25,
+			"weight": 40,
 			"value": {
 				"item": "minecraft:sculk_vein"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:ochre_froglight"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:verdant_froglight"
 			}
 		},
 		{
 			"type": "bongo.item",
-			"weight": 10,
+			"weight": 5,
 			"value": {
 				"item": "minecraft:pearlescent_froglight"
 			}
@@ -4912,13 +4912,6 @@
 			"weight": 25,
 			"value": {
 				"item": "minecraft:spectral_arrow"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 40,
-			"value": {
-				"item": "minecraft:tipped_arrow"
 			}
 		},
 		{
