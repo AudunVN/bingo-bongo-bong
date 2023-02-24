@@ -33,11 +33,6 @@ inputTasks.forEach(task => {
 
 	if (task.weight && task.weight !== 0) {
 		if (resourceIdentifier[0] === "item" || resourceIdentifier[0] === "block") {
-			if (typeof resourceIdentifier[3] !== "undefined") {
-				console.log("Skipped " + task.internalName + ", subitem");
-				return;
-			}
-
 			if (!items.includes(resourceIdentifier[2])) {
 				console.log("Skipped " + task.internalName + ", not on item list");
 				return;
@@ -47,6 +42,16 @@ inputTasks.forEach(task => {
 			taskObject.weight = task.weight;
 			taskObject.value = {
 				item: resourceIdentifier[1] + ":" + resourceIdentifier[2]
+			}
+
+			
+
+			if (typeof resourceIdentifier[3] !== "undefined") {
+				const subItemIdentifier = task.internalName.split(resourceIdentifier[2])[1];
+
+				console.log("Item " + task.internalName + " is a subitem");
+
+				taskObject.value.item += subItemIdentifier;
 			}
 		} else if (resourceIdentifier[0] === "entity") {
 			if (typeof resourceIdentifier[3] !== "undefined") {

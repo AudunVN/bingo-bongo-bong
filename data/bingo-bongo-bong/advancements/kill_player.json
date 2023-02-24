@@ -20,7 +20,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:player"
+					"type": "minecraft:player",
+					"distance": {
+						"absolute": {
+							"min": 0
+						}
+					}
 				}
 			}
 		}

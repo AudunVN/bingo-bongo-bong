@@ -6521,6 +6521,167 @@
 			"type": "bongo.item",
 			"weight": 15,
 			"value": {
+				"item": "minecraft:firework_star.black"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.red"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.green"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.brown"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.blue"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.purple"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.cyan"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.light_gray"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.gray"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.pink"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.lime"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.yellow"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.light_blue"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.magenta"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.orange"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.white"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.flicker"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.trail"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.shape.small_ball"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.shape.large_ball"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.shape.star"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.shape.creeper"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:firework_star.shape.burst"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
 				"item": "minecraft:nether_brick"
 			}
 		},
@@ -7151,7 +7312,357 @@
 			"type": "bongo.item",
 			"weight": 15,
 			"value": {
+				"item": "minecraft:potion.effect.water"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.awkward"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.night_vision"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.invisibility"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.leaping"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.fire_resistance"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.swiftness"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.slowness"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.water_breathing"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.healing"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.harming"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.poison"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.regeneration"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.strength"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.weakness"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.levitation"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.luck"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:potion.effect.slow_falling"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.night_vision"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.invisibility"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.leaping"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.fire_resistance"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.swiftness"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.slowness"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.water_breathing"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.healing"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.harming"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.poison"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.regeneration"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.strength"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.weakness"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.levitation"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.luck"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
+				"item": "minecraft:splash_potion.effect.slow_falling"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 15,
+			"value": {
 				"item": "minecraft:shield"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.black"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.red"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.green"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.brown"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.blue"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.purple"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.cyan"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.light_gray"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.gray"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.pink"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.lime"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.yellow"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.light_blue"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.magenta"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.orange"
+			}
+		},
+		{
+			"type": "bongo.item",
+			"weight": 10,
+			"value": {
+				"item": "minecraft:shield.white"
 			}
 		},
 		{

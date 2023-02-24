@@ -218,6 +218,12 @@
 			"conditions": {
 				"loot_table": "minecraft:chests/woodland_mansion"
 			}
+		},
+		"ruined_portal": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/ruined_portal"
+			}
 		}
 	},
 	"requirements": [
@@ -255,7 +261,8 @@
 			"village_temple",
 			"village_toolsmith",
 			"village_weaponsmith",
-			"woodland_mansion"
+			"woodland_mansion",
+			"ruined_portal"
 		]
 	],
 	"parent": "bingo-bongo-bong:root"

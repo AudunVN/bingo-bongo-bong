@@ -21,23 +21,20 @@
 			"conditions": {
 				"damage": {
 					"dealt": {
-						"min": 1,
-						"max": 100000
+						"min": 1
 					},
 					"source_entity": {
 						"type": "minecraft:player"
 					}
 				},
-				"entity": [
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {}
+				"entity": {
+					"type": "minecraft:player",
+					"distance": {
+						"absolute": {
+							"min": 0
 						}
 					}
-				]
+				}
 			}
 		}
 	},

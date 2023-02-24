@@ -21,8 +21,7 @@
 			"conditions": {
 				"damage": {
 					"taken": {
-						"min": 16,
-						"max": 200
+						"min": 16
 					}
 				}
 			}
