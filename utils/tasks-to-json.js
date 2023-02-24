@@ -44,12 +44,15 @@ inputTasks.forEach(task => {
 				item: resourceIdentifier[1] + ":" + resourceIdentifier[2]
 			}
 
-			
-
 			if (typeof resourceIdentifier[3] !== "undefined") {
 				const subItemIdentifier = task.internalName.split(resourceIdentifier[2])[1];
 
-				console.log("Item " + task.internalName + " is a subitem");
+				console.log(task.internalName + " is a subitem");
+
+				if (!items.includes(resourceIdentifier[2] + subItemIdentifier)) {
+					console.log("Skipped " + task.internalName + ", not on item list");
+					return;
+				}
 
 				taskObject.value.item += subItemIdentifier;
 			}
