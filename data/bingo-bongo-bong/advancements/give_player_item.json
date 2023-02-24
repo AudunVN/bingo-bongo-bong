@@ -18,16 +18,14 @@
 		"Throw Item At Player": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {}
+				"entity": {
+					"type": "minecraft:player",
+					"distance": {
+						"absolute": {
+							"min": 0
 						}
 					}
-				]
+				}
 			}
 		}
 	},

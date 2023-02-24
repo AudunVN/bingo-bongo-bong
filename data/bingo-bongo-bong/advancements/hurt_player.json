@@ -22,9 +22,6 @@
 				"damage": {
 					"dealt": {
 						"min": 1
-					},
-					"source_entity": {
-						"type": "minecraft:player"
 					}
 				},
 				"entity": {
