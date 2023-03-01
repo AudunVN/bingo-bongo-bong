@@ -7,7 +7,7 @@
 			"text": "I don't know, I'm just an advancement description. Why don't you go up there and find out for yourself?"
 		},
 		"icon": {
-			"item": "minecraft:spruce_boat"
+			"item": "minecraft:lightning_rod"
 		},
 		"frame": "task",
 		"show_toast": true,
