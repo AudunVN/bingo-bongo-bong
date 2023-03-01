@@ -11,7 +11,7 @@
 	},
 	"level": {
 		"teleporter": "bongo.standard",
-		"teleport_radius": 500
+		"teleport_radius": 990
 	},
 	"equipment": {
 		"inventory": [
