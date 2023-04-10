@@ -1,0 +1,47 @@
+version: "3.8"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    environment:
+      # You probably want to change this
+      SERVER_NAME: "Bingo Bongo Bong"
+      MOTD: "(king of the bongo)"
+      WHITELIST: ""
+      OPS: ""
+      LEVEL: "world-1"
+
+      # You may want to change this
+      DIFFICULTY: "hard"
+      MAX_WORLD_SIZE: 1000
+      MEMORY: "4G"
+
+      # You probably don't want to change this
+      SPAWN_PROTECTION: 0
+      MODE: "survival"
+      FORCE_GAMEMODE: "true"
+      EULA: "true"
+      TYPE: "FORGE"
+      VERSION: 1.19.2
+      FORGE_VERSION: 43.2.0
+      DATAPACKS: "https://github.com/AudunVN/bingo-bongo-bong/releases/download/latest/bingo-bongo-bong.zip"
+      MODS:
+        https://mediafilez.forgecdn.net/files/4046/533/Bongo-1.19.2-3.2.0.jar,
+        https://mediafilez.forgecdn.net/files/4052/778/LibX-1.19.2-4.2.8.jar
+
+      # SYNC_SKIP_NEWER_IN_DESTINATION: "true"
+      # REMOVE_OLD_MODS: "true"
+      # MAX_TICK_TIME: -1
+      # ENABLE_AUTOPAUSE: "true"
+      # RCON_CMDS_STARTUP:  |-
+      #   /pregen start gen radius GameBorder SQUARE 0 0 64 minecraft:overworld
+    ports:
+      - "25565:25565"
+    volumes:
+      - bingo-data-1:/data
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    
+volumes:
+  bingo-data-1:
