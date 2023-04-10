@@ -38,7 +38,7 @@
 		{
 			"type": "bongo.advancement",
 			"weight": 20,
-			"value": "bingo-bongo-bong:enter_shipwreck"
+			"value": "bingo-bongo-bong:find_shipwreck"
 		},
 		{
 			"type": "bongo.advancement",

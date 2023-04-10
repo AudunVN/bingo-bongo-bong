@@ -16,10 +16,11 @@ jobs:
           filename: 'bingo-bongo-bong.zip'
           exclusions: > 
             *.git*
-            /*.vscode/*
             /*.github/*
+            /*.vscode/*
+            /*images/*
+            /*utilities/*
             /*workspace/*
-            /*utils/*
             docker-compose.yaml
             README.md
 
