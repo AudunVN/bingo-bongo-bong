@@ -4,6 +4,8 @@ Datapack with extra tasks and tweaks for playing the Minecraft mod [Bongo](https
 
 The latest version of the datapack can be downloaded by clicking [here](https://github.com/AudunVN/bingo-bongo-bong/releases/download/latest/bingo-bongo-bong.zip) or via the [Releases page](https://github.com/AudunVN/bingo-bongo-bong/releases) on GitHub.
 
+A sample `docker-compose` setup for running a 1.19.2 Bongo server with this datapack is available [here](docker-compose.yaml). Increment the world number and restart the server for each new game.
+
 ## Details
 This is intended to be played with PVP enabled and a world border at 1000 blocks out, giving a play area of 2000 x 2000 blocks. This is done to increase the likelihood of player encounters. Custom world generation is provided to attempt to make tasks more likely to be achievable within this reduced world size, but some tasks or task combinations may still be impossible or very difficult to complete depending on the specific world. Some examples here include things requiring green dye and/or cactus, or blocks requiring a combination of Silk Touch and a specific biome.
 
