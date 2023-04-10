@@ -18,11 +18,6 @@
 		{
 			"type": "bongo.advancement",
 			"weight": 20,
-			"value": "bingo-bongo-bong:give_player_item"
-		},
-		{
-			"type": "bongo.advancement",
-			"weight": 20,
 			"value": "bingo-bongo-bong:hook_player"
 		},
 		{
