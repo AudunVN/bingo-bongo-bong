@@ -9,20 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Archive Repo (zip)
-        uses: thedoctor0/zip-release@0.7.1
-        with:
-          type: 'zip'
-          filename: 'latest.zip'
-          exclusions: > 
-            *.git*
-            /*.github/*
-            /*.vscode/*
-            latest.zip
-            latest.tar.gz
-            bingo-bongo-bong.zip
-            bingo-bongo-bong-resources.zip
-
       - name: Archive Repo (tar.gz)
         uses: thedoctor0/zip-release@0.7.1
         with:
@@ -40,6 +26,19 @@ jobs:
             --ignore-failed-read
             --warning=no-file-changed
             --warning=no-failed-read
+      - name: Archive Repo (zip)
+        uses: thedoctor0/zip-release@0.7.1
+        with:
+          type: 'zip'
+          filename: 'latest.zip'
+          exclusions: > 
+            *.git*
+            /*.github/*
+            /*.vscode/*
+            latest.zip
+            latest.tar.gz
+            bingo-bongo-bong.zip
+            bingo-bongo-bong-resources.zip
 
       - name: Archive Datapack
         uses: thedoctor0/zip-release@0.7.1
