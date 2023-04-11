@@ -1,10 +1,10 @@
 {
 	"display": {
 		"title": {
-			"text": "Runner"
+			"text": "Dead By Daylight"
 		},
 		"description": {
-			"text": "Description"
+			"text": "Kill a hostile mob that doesn't spawn at day while in daylight."
 		},
 		"icon": {
 			"item": "minecraft:golden_boots"

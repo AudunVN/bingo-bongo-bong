@@ -1,10 +1,10 @@
 {
 	"display": {
 		"title": {
-			"text": "Rocker"
+			"text": "...Sonic the Hedgehog?"
 		},
 		"description": {
-			"text": "Description"
+			"text": "Go fast after being hit with arrows."
 		},
 		"icon": {
 			"item": "minecraft:golden_boots"
