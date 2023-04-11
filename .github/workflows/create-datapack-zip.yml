@@ -36,7 +36,9 @@ jobs:
             latest.tar.gz
             bingo-bongo-bong.zip
             bingo-bongo-bong-resources.zip
-          custom: --ignore-failed-read
+          custom: >
+            --ignore-failed-read
+            --warning=no-file-changed
 
       - name: Archive Datapack
         uses: thedoctor0/zip-release@0.7.1
