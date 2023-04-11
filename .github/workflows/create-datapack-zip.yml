@@ -9,21 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Archive Release
+      - name: Archive Datapack
         uses: thedoctor0/zip-release@0.7.1
         with:
           type: 'zip'
           filename: 'bingo-bongo-bong.zip'
-          path: 'datapack'
+          directory: 'datapack'
           exclusions: > 
             .gitkeep
 
-      - name: Archive Release
+      - name: Archive Resourcepack
         uses: thedoctor0/zip-release@0.7.1
         with:
           type: 'zip'
           filename: 'bingo-bongo-bong-resources.zip'
-          path: 'resourcepack'
+          directory: 'resourcepack'
           exclusions: > 
             .gitkeep
 
@@ -35,6 +35,6 @@ jobs:
           allowUpdates: true
           replacesArtifacts: true
           artifacts:
-            bingo-bongo-bong.zip,
-            bingo-bongo-bong-resources.zip
+            datapack/bingo-bongo-bong.zip,
+            resourcepack/bingo-bongo-bong-resources.zip
           token: ${{ secrets.GITHUB_TOKEN }}
