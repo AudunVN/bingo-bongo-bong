@@ -44,9 +44,8 @@ jobs:
       - name: Upload Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          tag: latest
           prerelease: true
-          allowUpdates: false
+          allowUpdates: true
           makeLatest: true
           replacesArtifacts: true
           artifacts:
