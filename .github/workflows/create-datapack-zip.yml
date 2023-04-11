@@ -46,7 +46,8 @@ jobs:
         with:
           tag: latest
           prerelease: true
-          allowUpdates: true
+          allowUpdates: false
+          makeLatest: true
           replacesArtifacts: true
           artifacts:
             datapack/bingo-bongo-bong.zip,
