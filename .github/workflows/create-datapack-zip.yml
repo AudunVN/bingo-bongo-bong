@@ -53,5 +53,4 @@ jobs:
             datapack/bingo-bongo-bong.zip,
             resourcepack/bingo-bongo-bong-resources.zip,
             latest.zip
-            latest.tar.gz
           token: ${{ secrets.GITHUB_TOKEN }}
