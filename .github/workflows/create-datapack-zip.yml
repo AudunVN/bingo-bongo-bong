@@ -44,7 +44,6 @@ jobs:
       - name: Upload Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          tag: latest
           commit: main
           prerelease: true
           generateReleaseNotes: true
