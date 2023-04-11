@@ -39,6 +39,7 @@ jobs:
           custom: >
             --ignore-failed-read
             --warning=no-file-changed
+            --warning=no-failed-read
 
       - name: Archive Datapack
         uses: thedoctor0/zip-release@0.7.1
