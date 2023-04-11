@@ -9,6 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+      - name: Archive Repo (zip)
+        uses: thedoctor0/zip-release@0.7.1
+        with:
+          type: 'zip'
+          filename: 'latest.zip'
+
+      - name: Archive Repo (tar.gz)
+        uses: thedoctor0/zip-release@0.7.1
+        with:
+          type: 'tar'
+          filename: 'latest.tar.gz'
+
       - name: Archive Datapack
         uses: thedoctor0/zip-release@0.7.1
         with:
@@ -36,5 +48,7 @@ jobs:
           replacesArtifacts: true
           artifacts:
             datapack/bingo-bongo-bong.zip,
-            resourcepack/bingo-bongo-bong-resources.zip
+            resourcepack/bingo-bongo-bong-resources.zip,
+            latest.zip
+            latest.tar.gz
           token: ${{ secrets.GITHUB_TOKEN }}
