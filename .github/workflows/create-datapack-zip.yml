@@ -1,4 +1,4 @@
-name: Create Minecraft Datapack zip file
+name: Create Minecraft Datapack+Resourcepack zip files
 on: [push]
 
 permissions:
@@ -14,15 +14,18 @@ jobs:
         with:
           type: 'zip'
           filename: 'bingo-bongo-bong.zip'
+          path: 'datapack'
           exclusions: > 
-            *.git*
-            /*.github/*
-            /*.vscode/*
-            /*images/*
-            /*utilities/*
-            /*workspace/*
-            docker-compose.yaml
-            README.md
+            .gitkeep
+
+      - name: Archive Release
+        uses: thedoctor0/zip-release@0.7.1
+        with:
+          type: 'zip'
+          filename: 'bingo-bongo-bong-resources.zip'
+          path: 'resourcepack'
+          exclusions: > 
+            .gitkeep
 
       - name: Upload Release
         uses: ncipollo/release-action@v1.12.0
@@ -31,5 +34,7 @@ jobs:
           prerelease: true
           allowUpdates: true
           replacesArtifacts: true
-          artifacts: "bingo-bongo-bong.zip"
+          artifacts:
+            bingo-bongo-bong.zip,
+            bingo-bongo-bong-resources.zip
           token: ${{ secrets.GITHUB_TOKEN }}
