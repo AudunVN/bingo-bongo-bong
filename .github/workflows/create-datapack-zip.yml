@@ -29,13 +29,14 @@ jobs:
           type: 'tar'
           filename: 'latest.tar.gz'
           exclusions: > 
-            *.git*
-            /*.github/*
-            /*.vscode/*
+            .git
+            .github
+            .vscode
             latest.zip
             latest.tar.gz
             bingo-bongo-bong.zip
             bingo-bongo-bong-resources.zip
+          custom: --ignore-failed-read
 
       - name: Archive Datapack
         uses: thedoctor0/zip-release@0.7.1
