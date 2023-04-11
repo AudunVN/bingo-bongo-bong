@@ -14,13 +14,12 @@ jobs:
         uses: thedoctor0/zip-release@0.7.1
         with:
           type: 'zip'
-          filename: 'latest.zip'
+          filename: 'latest-source.zip'
           exclusions: > 
             *.git*
             /*.github/*
             /*.vscode/*
-            latest.zip
-            latest.tar.gz
+            latest-source.zip
             bingo-bongo-bong.zip
             bingo-bongo-bong-resources.zip
 
@@ -52,5 +51,5 @@ jobs:
           artifacts:
             datapack/bingo-bongo-bong.zip,
             resourcepack/bingo-bongo-bong-resources.zip,
-            latest.zip
+            latest-source.zip
           token: ${{ secrets.GITHUB_TOKEN }}
