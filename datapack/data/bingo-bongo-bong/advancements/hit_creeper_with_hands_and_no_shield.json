@@ -1,0 +1,62 @@
+{
+	"display": {
+		"title": {
+			"text": "Shake Hands With Danger"
+		},
+		"description": {
+			"text": "Slap a Creeper without any armor or a shield equipped."
+		},
+		"icon": {
+			"item": "minecraft:creeper_head"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Hurt Creeper With No Protection": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "creeper"
+				},
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:air"
+							]
+						},
+						"offhand": {
+							"items": [
+								"minecraft:air"
+							]
+						},
+						"head": {
+							"items": [
+								"minecraft:air"
+							]
+						},
+						"chest": {
+							"items": [
+								"minecraft:air"
+							]
+						},
+						"legs": {
+							"items": [
+								"minecraft:air"
+							]
+						},
+						"feet": {
+							"items": [
+								"minecraft:air"
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
