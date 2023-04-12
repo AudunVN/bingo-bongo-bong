@@ -22,7 +22,7 @@
 					"type": "minecraft:player",
 					"distance": {
 						"absolute": {
-							"min": 0
+							"min": 1
 						}
 					}
 				}

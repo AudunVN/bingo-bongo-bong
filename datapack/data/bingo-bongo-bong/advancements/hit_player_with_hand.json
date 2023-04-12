@@ -7,7 +7,7 @@
 			"text": "Hit a player while holding nothing in your hands."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:name_tag"
 		},
 		"frame": "task",
 		"show_toast": true,
