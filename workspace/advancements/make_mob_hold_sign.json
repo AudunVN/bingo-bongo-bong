@@ -1,10 +1,10 @@
 {
 	"display": {
 		"title": {
-			"text": "Show M"
+			"text": "Give Me A Sign"
 		},
 		"description": {
-			"text": "Get more than one player kill."
+			"text": "Make a mob hold a sign."
 		},
 		"icon": {
 			"item": "minecraft:golden_boots"

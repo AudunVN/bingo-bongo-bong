@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "Not Very Nice"
+			"text": "Chicken Attack"
 		},
 		"description": {
 			"text": "Get more than one player kill."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:egg"
 		},
 		"frame": "task",
 		"show_toast": true,
