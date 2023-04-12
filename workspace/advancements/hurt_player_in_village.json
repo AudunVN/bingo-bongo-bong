@@ -4,7 +4,7 @@
 			"text": "This Town Ain't Big Enough for Both of Us"
 		},
 		"description": {
-			"text": "Hurt another player in a village."
+			"text": "Hurt a player or friendly mob in a village."
 		},
 		"icon": {
 			"item": "minecraft:dirt"
