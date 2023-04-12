@@ -1,10 +1,10 @@
 {
 	"display": {
 		"title": {
-			"text": "Stop, Drop And Roll"
+			"text": "That's A Portal!"
 		},
 		"description": {
-			"text": "Be on fire."
+			"text": "Have ten or more obsidian on you."
 		},
 		"icon": {
 			"item": "minecraft:golden_boots"
