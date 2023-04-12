@@ -1,0 +1,21 @@
+{
+	"display": {
+		"title": {
+			"text": "Not Very Nice"
+		},
+		"description": {
+			"text": "Get more than one player kill."
+		},
+		"icon": {
+			"item": "minecraft:golden_boots"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+
+	},
+	"parent": "bingo-bongo-bong:root"
+}
