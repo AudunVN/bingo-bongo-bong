@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "Party Animal"
+			"text": "Landlubber"
 		},
 		"description": {
-			"text": "Description"
+			"text": "Get seasick."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:oak_boat"
 		},
 		"frame": "task",
 		"show_toast": true,
