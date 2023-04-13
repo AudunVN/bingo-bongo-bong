@@ -1,0 +1,32 @@
+{
+	"display": {
+		"title": {
+			"text": "I'm Actually Not Lost"
+		},
+		"description": {
+			"text": "Get a map."
+		},
+		"icon": {
+			"item": "minecraft:map"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Have A Map": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:map"
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

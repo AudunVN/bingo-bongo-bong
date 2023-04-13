@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "Stop, Drop And Roll"
+			"text": "Oh, That's Hot"
 		},
 		"description": {
-			"text": "Be on fire."
+			"text": "Kill something that's on fire while you're on fire."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:flint_and_steel"
 		},
 		"frame": "task",
 		"show_toast": true,

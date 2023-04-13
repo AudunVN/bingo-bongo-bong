@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "So Anyway, I Started Blasting"
+			"text": "The Pen Is Mightier Than The Sword"
 		},
 		"description": {
-			"text": "Description"
+			"text": "Kill something (or someone!) that's holding a sword with a book and quill."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:book_and_quill"
 		},
 		"frame": "task",
 		"show_toast": true,

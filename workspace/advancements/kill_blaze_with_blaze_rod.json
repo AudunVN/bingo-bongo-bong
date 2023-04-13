@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "Uh Oh"
+			"text": "Blaze It"
 		},
 		"description": {
-			"text": "Description"
+			"text": "Kill a blaze with a blaze rod."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:blaze_rod"
 		},
 		"frame": "task",
 		"show_toast": true,

@@ -1,0 +1,35 @@
+{
+	"display": {
+		"title": {
+			"text": "Uh Oh"
+		},
+		"description": {
+			"text": "Description"
+		},
+		"icon": {
+			"item": "minecraft:tnt"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Activate TNT with Flint and Steel": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"blocks": [
+						"minecraft:tnt"
+					]
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
