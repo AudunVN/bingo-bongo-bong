@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "Stop, Drop And Roll"
+			"text": "I'm In Danger"
 		},
 		"description": {
-			"text": "Be on fire."
+			"text": "Description"
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:spruce_boat"
 		},
 		"frame": "task",
 		"show_toast": true,

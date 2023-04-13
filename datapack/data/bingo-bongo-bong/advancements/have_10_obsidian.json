@@ -7,7 +7,7 @@
 			"text": "Have ten or more obsidian on you."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:obsidian"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -15,7 +15,21 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Have Ten Obsidian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"count": {
+							"min": 10
+						},
+						"items": [
+							"minecraft:obsidian"
+						]
+					}
+				]
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }

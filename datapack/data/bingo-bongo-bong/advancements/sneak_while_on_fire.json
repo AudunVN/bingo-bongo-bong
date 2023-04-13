@@ -1,0 +1,31 @@
+{
+	"display": {
+		"title": {
+			"text": "The Stealthiest Bonfire Around"
+		},
+		"description": {
+			"text": "Sneak while on fire."
+		},
+		"icon": {
+			"item": "minecraft:flint_and_steel"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Be On Fire": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_on_fire": true,
+						"is_sneaking": true
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

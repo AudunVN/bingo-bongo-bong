@@ -15,7 +15,7 @@
 		"hidden": false
 	},
 	"criteria": {
-		"Be Dead": {
+		"Be Dead After Getting A Diamond": {
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
