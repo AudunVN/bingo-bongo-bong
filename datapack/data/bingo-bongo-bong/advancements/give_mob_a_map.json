@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "You're Welcome"
+			"text": "You're Lost"
 		},
 		"description": {
-			"text": "Throw an item at another player."
+			"text": "Make a mob pick up a map."
 		},
 		"icon": {
-			"item": "minecraft:dirt"
+			"item": "minecraft:map"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -15,11 +15,15 @@
 		"hidden": false
 	},
 	"criteria": {
-		"Throw Item At Player": {
+		"Thrown Map Picked Up By Mob": {
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:map"
+					]
+				},
 				"entity": {
-					"type": "minecraft:player",
 					"distance": {
 						"absolute": {
 							"min": 0.1

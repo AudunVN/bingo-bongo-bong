@@ -4,7 +4,7 @@
 			"text": "Cookie Monster"
 		},
 		"description": {
-			"text": "Give a hostile mob a cookie."
+			"text": "Give a mob that's hostile to you a cookie."
 		},
 		"icon": {
 			"item": "minecraft:cookie"
