@@ -4,10 +4,10 @@
 			"text": "And It Was Going So Well"
 		},
 		"description": {
-			"text": "Description"
+			"text": "Die after getting a diamond."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:diamond"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -15,7 +15,20 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Be Dead": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"nbt": "{Health:0.0f}",
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:story/mine_diamond": true
+						}
+					}
+				}
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }
