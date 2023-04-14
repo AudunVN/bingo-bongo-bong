@@ -1,0 +1,21 @@
+{
+	"display": {
+		"title": {
+			"text": "Stop, Drop And Roll"
+		},
+		"description": {
+			"text": "Be on fire."
+		},
+		"icon": {
+			"item": "minecraft:golden_boots"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+
+	},
+	"parent": "bingo-bongo-bong:root"
+}

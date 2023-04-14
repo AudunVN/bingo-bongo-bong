@@ -2,21 +2,6 @@
 	"tasks": [
 		{
 			"type": "bongo.advancement",
-			"weight": 1,
-			"value": "minecraft:nether/obtain_crying_obsidian"
-		},
-		{
-			"type": "bongo.advancement",
-			"weight": 1,
-			"value": "minecraft:nether/distract_piglin"
-		},
-		{
-			"type": "bongo.advancement",
-			"weight": 1,
-			"value": "minecraft:adventure/avoid_vibration"
-		},
-		{
-			"type": "bongo.advancement",
 			"weight": 20,
 			"value": "bingo-bongo-bong:hook_player"
 		},
@@ -58,72 +43,107 @@
 		{
 			"type": "bongo.advancement",
 			"weight": 20,
+			"value": "bingo-bongo-bong:activate_tnt_with_flint"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:die_after_diamonds"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:eat_advanced_food"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:find_ruined_portal"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:find_village"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:get_a_map"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_hostile_mob_a_cookie"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_mob_a_clock"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_mob_a_map"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_mob_a_sign"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_player_item"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
 			"value": "bingo-bongo-bong:go_fast"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:jagged_peaks"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:have_10_obsidian"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:beach"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:hit_creeper_with_hands_and_no_shield"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:windswept_savanna"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:hit_player_with_hand"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:windswept_forest"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:open_loot_chest"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:jungle"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:open_trapped_chest"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:deep_ocean"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:sneak_while_on_fire"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:stony_shore"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:take_player_item"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:snowy_beach"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:use_blast_furnace"
 		},
 		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:dark_forest"
-		},
-		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:snowy_taiga"
-		},
-		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:savanna"
-		},
-		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:savanna_plateau"
-		},
-		{
-			"type": "bongo.biome",
-			"weight": 1,
-			"value": "minecraft:badlands"
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:visit_height_limit"
 		}
 	]
 }
