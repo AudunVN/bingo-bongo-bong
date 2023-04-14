@@ -19,9 +19,11 @@
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {
-					"blocks": [
-						"minecraft:blast_furnace"
-					]
+					"block": {
+						"blocks": [
+							"minecraft:blast_furnace"
+						]
+					}
 				}
 			}
 		}

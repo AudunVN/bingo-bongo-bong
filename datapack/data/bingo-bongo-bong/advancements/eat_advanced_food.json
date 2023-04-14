@@ -36,9 +36,11 @@
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {
-					"blocks": [
-						"minecraft:cake"
-					]
+					"block": {
+						"blocks": [
+							"minecraft:cake"
+						]
+					}
 				}
 			}
 		}

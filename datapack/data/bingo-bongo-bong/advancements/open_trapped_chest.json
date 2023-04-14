@@ -7,7 +7,7 @@
 			"text": "Open a loot chest."
 		},
 		"icon": {
-			"item": "minecraft:chest"
+			"item": "minecraft:trapped_chest"
 		},
 		"frame": "task",
 		"show_toast": true,
