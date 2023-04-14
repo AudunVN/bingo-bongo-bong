@@ -1,0 +1,2 @@
+execute as @e[type=zombie,tag=!bingo_bongo_patched] store result entity @s CanPickUpLoot byte 1.0 if predicate bingo-bongo-bong:should_make_mob_pickup
+tag @e[type=zombie,tag=!bingo_bongo_patched] add bingo_bongo_patched
