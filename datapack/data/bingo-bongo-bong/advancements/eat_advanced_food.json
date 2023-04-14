@@ -19,16 +19,7 @@
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"items": [
-						"minecraft:cake",
-						"minecraft:cookie",
-						"minecraft:enchanted_golden_apple",
-						"minecraft:golden_apple",
-						"minecraft:golden_carrot",
-						"minecraft:mushroom_stew",
-						"minecraft:pumpkin_pie",
-						"minecraft:rabbit_stew"
-					]
+					"tag": "bingo-bongo-bong:good_food"
 				}
 			}
 		},

@@ -1,0 +1,114 @@
+{
+	"display": {
+		"title": {
+			"text": "A Man Has Fallen Into the River in Lego City"
+		},
+		"description": {
+			"text": "Build with colorful blocks, then fall into water in a village."
+		},
+		"icon": {
+			"item": "minecraft:light_blue_concrete"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Fall In Water In Desert Village After Placing Colorful Blocks": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:water",
+				"player": {
+					"location": {
+						"structure": "village_desert"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"bingo-bongo-bong:place_colorful_blocks": true
+						}
+					}
+				}
+			}
+		},
+		"Fall In Water In Plains Village After Placing Colorful Blocks": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:water",
+				"player": {
+					"location": {
+						"structure": "village_plains"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"bingo-bongo-bong:place_colorful_blocks": true
+						}
+					}
+				}
+			}
+		},
+		"Fall In Water In Savanna Village After Placing Colorful Blocks": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:water",
+				"player": {
+					"location": {
+						"structure": "village_savanna"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"bingo-bongo-bong:place_colorful_blocks": true
+						}
+					}
+				}
+			}
+		},
+		"Fall In Water In Snowy Village After Placing Colorful Blocks": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:water",
+				"player": {
+					"location": {
+						"structure": "village_snowy"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"bingo-bongo-bong:place_colorful_blocks": true
+						}
+					}
+				}
+			}
+		},
+		"Fall In Water In Taiga Village After Placing Colorful Blocks": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:water",
+				"player": {
+					"location": {
+						"structure": "village_taiga"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"bingo-bongo-bong:place_colorful_blocks": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Fall In Water In Desert Village After Placing Colorful Blocks",
+			"Fall In Water In Plains Village After Placing Colorful Blocks",
+			"Fall In Water In Savanna Village After Placing Colorful Blocks",
+			"Fall In Water In Snowy Village After Placing Colorful Blocks",
+			"Fall In Water In Taiga Village After Placing Colorful Blocks"
+		]
+	],
+	"parent": "bingo-bongo-bong:root"
+}

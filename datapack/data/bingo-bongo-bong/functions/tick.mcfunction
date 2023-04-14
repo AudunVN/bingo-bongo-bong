@@ -1,1 +1,1 @@
-function bingo-bongo-bong:patches/set_mob_pickup_rate
+function #bingo-bongo-bong:tick_functions
