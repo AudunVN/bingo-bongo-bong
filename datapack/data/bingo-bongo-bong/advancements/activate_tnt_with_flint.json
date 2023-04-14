@@ -24,9 +24,11 @@
 					]
 				},
 				"location": {
-					"blocks": [
-						"minecraft:tnt"
-					]
+					"block": {
+						"blocks": [
+							"minecraft:tnt"
+						]
+					}
 				}
 			}
 		}
