@@ -144,6 +144,16 @@
 			"type": "bongo.advancement",
 			"weight": 20,
 			"value": "bingo-bongo-bong:visit_height_limit"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:place_colorful_blocks"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:place_colorful_blocks_then_fall_in_village_water"
 		}
 	]
 }
