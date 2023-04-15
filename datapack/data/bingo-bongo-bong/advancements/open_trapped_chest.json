@@ -4,7 +4,7 @@
 			"text": "Feeling Luc-"
 		},
 		"description": {
-			"text": "Open a loot chest."
+			"text": "Open a trapped chest."
 		},
 		"icon": {
 			"item": "minecraft:trapped_chest"
