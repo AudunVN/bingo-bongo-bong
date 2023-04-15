@@ -15,13 +15,8 @@
 		"hidden": false
 	},
 	"criteria": {
-		"Have Half A Heart Left": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"nbt": "{Health:0.5f}"
-				}
-			}
+		"Granted by function health_check": {
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"parent": "bingo-bongo-bong:root"
