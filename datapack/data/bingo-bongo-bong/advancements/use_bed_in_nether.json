@@ -1,0 +1,31 @@
+{
+	"display": {
+		"title": {
+			"text": "Intentional Game Design"
+		},
+		"description": {
+			"text": "Try use a bed in the Nether."
+		},
+		"icon": {
+			"item": "minecraft:brown_bed"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Use Bed In Nether": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"dimension": "minecraft:the_nether",
+					"block": {
+						"tag": "minecraft:beds"
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
