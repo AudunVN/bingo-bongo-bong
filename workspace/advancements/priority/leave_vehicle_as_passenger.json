@@ -1,10 +1,10 @@
 {
 	"display": {
 		"title": {
-			"text": "Music Man"
+			"text": "Stowaway"
 		},
 		"description": {
-			"text": "Description"
+			"text": "Enter a vehicle that you're not controlling."
 		},
 		"icon": {
 			"item": "minecraft:golden_boots"

@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "Show M"
+			"text": "Well-grounded"
 		},
 		"description": {
-			"text": "Get more than one player kill."
+			"text": "Stand on bedrock."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:bedrock"
 		},
 		"frame": "task",
 		"show_toast": true,
