@@ -154,6 +154,31 @@
 			"type": "bongo.advancement",
 			"weight": 20,
 			"value": "bingo-bongo-bong:place_colorful_blocks_then_fall_in_village_water"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_hostile_mob_a_weapon"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_hostile_mob_a_good_weapon"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:give_mob_good_weapon_then_kill"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:kill_sword_enthusiast_with_book_and_quill"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 20,
+			"value": "bingo-bongo-bong:have_half_a_heart"
 		}
 	]
 }
