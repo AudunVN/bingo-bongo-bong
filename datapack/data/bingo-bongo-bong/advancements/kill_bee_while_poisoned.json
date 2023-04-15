@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "Buzz Off"
+			"text": "Buzzkill"
 		},
 		"description": {
-			"text": "Get seasick."
+			"text": "Kill a bee while poisoned."
 		},
 		"icon": {
-			"item": "minecraft:oak_boat"
+			"item": "minecraft:honeycomb_block"
 		},
 		"frame": "task",
 		"show_toast": true,

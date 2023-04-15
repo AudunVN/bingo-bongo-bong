@@ -1,0 +1,40 @@
+{
+	"display": {
+		"title": {
+			"text": "Unfortunately, I Like Crazy"
+		},
+		"description": {
+			"text": "Kill a mob that you've given a good weapon."
+		},
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Kill Mob After Giving Good Weapon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"equipment": {
+						"mainhand": {
+							"tag": "bingo-bongo-bong:good_weapons"
+						}
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"bingo-bongo-bong:give_hostile_mob_a_good_weapon": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

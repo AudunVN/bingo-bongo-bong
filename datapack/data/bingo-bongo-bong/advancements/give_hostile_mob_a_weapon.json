@@ -1,0 +1,33 @@
+{
+	"display": {
+		"title": {
+			"text": "I Need A Weapon"
+		},
+		"description": {
+			"text": "Give a mob that's hostile to you a weapon."
+		},
+		"icon": {
+			"item": "minecraft:stone_sword"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Thrown Weapon Picked Up By Hostile Mob": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"tag": "bingo-bongo-bong:weapons"
+				},
+				"entity": {
+					"targeted_entity": {
+						"type": "minecraft:player"
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

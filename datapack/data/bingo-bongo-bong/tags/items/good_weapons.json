@@ -1,3 +1,8 @@
 {
-	"values": []
+	"values": [
+		"iron_sword",
+		"diamond_sword",
+		"netherite_sword",
+		"trident"
+	]
 }
