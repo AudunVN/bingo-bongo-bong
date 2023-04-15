@@ -1,0 +1,43 @@
+{
+	"display": {
+		"title": {
+			"text": "The Pen Is Mightier Than The Sword"
+		},
+		"description": {
+			"text": "Kill something (or someone!) that's holding a sword with a book and quill."
+		},
+		"icon": {
+			"item": "minecraft:writable_book"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Kill Entity With Book And Quill": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"equipment": {
+						"mainhand": {
+							"tag": "bingo-bongo-bong:swords"
+						}
+					}
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:writable_book"
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
