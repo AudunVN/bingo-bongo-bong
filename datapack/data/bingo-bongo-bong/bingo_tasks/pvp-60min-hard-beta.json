@@ -7052,16 +7052,6 @@
 		},
 		{
 			"type": "bongo.effect",
-			"weight": 40,
-			"value": "minecraft:instant_health"
-		},
-		{
-			"type": "bongo.effect",
-			"weight": 30,
-			"value": "minecraft:instant_damage"
-		},
-		{
-			"type": "bongo.effect",
 			"weight": 30,
 			"value": "minecraft:jump_boost"
 		},
