@@ -1,4 +1,5 @@
-scoreboard objectives remove bingo_bongo.player_health
-scoreboard objectives add bingo_bongo.player_health dummy
+# clean up before setup, in case we're replacing an old version of the datapack
+function #bingo-bongo-bong:unload_functions
 
+# install time
 function #bingo-bongo-bong:load_functions

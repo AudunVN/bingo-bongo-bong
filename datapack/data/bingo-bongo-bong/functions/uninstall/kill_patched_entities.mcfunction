@@ -1,0 +1,1 @@
+execute as @e[tag=bingo_bongo_patched] run kill @s

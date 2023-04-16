@@ -1,0 +1,39 @@
+{
+	"display": {
+		"title": {
+			"text": "Guess Who's Back?"
+		},
+		"description": {
+			"text": "Quit the game at least once."
+		},
+		"icon": {
+			"item": "minecraft:dispenser"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Quit Game Stat Greater Than One": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:leave_game",
+								"value": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

@@ -21,7 +21,7 @@
 				"location": {
 					"dimension": "minecraft:the_nether",
 					"block": {
-						"tag": "minecraft:beds"
+						"blocks": ["minecraft:fire", "minecraft:air"]
 					}
 				}
 			}
