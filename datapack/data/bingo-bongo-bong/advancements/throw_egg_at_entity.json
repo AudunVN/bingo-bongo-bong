@@ -4,7 +4,7 @@
 			"text": "Chicken Attack"
 		},
 		"description": {
-			"text": "Get more than one player kill."
+			"text": "Hit something (or someone!) with an egg."
 		},
 		"icon": {
 			"item": "minecraft:egg"
@@ -15,7 +15,18 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Player hits entity with egg": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"type": "minecraft:egg"
+						}
+					}
+				}
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }

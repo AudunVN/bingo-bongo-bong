@@ -15,7 +15,20 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Stand on bedrock": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"stepping_on": {
+						"block": {
+							"blocks": [
+								"minecraft:bedrock"
+							]
+						}
+					}
+				}
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }
