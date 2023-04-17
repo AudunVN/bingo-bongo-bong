@@ -7,7 +7,8 @@
 			"text": "Sneak while on fire."
 		},
 		"icon": {
-			"item": "minecraft:flint_and_steel"
+			"item": "minecraft:black_banner",
+			"nbt": "{BlockEntityTag:{Patterns:[{Pattern:moj,Color:1},{Pattern:bri,Color:15},{Pattern:bt,Color:1},{Pattern:mr,Color:15},{Pattern:gru,Color:1},{Pattern:bts,Color:4},{Pattern:gra,Color:7},{Pattern:sku,Color:0}]}}"
 		},
 		"frame": "task",
 		"show_toast": true,

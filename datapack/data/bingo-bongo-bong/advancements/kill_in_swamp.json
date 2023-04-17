@@ -1,0 +1,47 @@
+{
+	"display": {
+		"title": {
+			"text": "Get Out Of My Swamp"
+		},
+		"description": {
+			"text": "Kill something (or someone!) while you're in a swamp."
+		},
+		"icon": {
+			"item": "minecraft:brown_banner",
+			"nbt": "{BlockEntityTag:{Patterns:[{Pattern:gra,Color:3},{Pattern:bt,Color:15},{Pattern:flo,Color:0},{Pattern:mr,Color:15},{Pattern:mc,Color:0},{Pattern:flo,Color:13},{Pattern:sku,Color:13}]}}"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Player Kills Entity In Swamp": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "swamp"
+					}
+				}
+			}
+		},
+		"Player Kills Entity In Mangrove Swamp": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "mangrove_swamp"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Player Kills Entity In Swamp",
+			"Player Kills Entity In Mangrove Swamp"
+		]
+	],
+	"parent": "bingo-bongo-bong:root"
+}

@@ -7,7 +7,8 @@
 			"text": "Equip a piece of armor with Curse of Binding."
 		},
 		"icon": {
-			"item": "minecraft:golden_chestplate"
+			"item": "minecraft:golden_chestplate",
+			"nbt": "{Enchantments:[{id:\"binding_curse\",lvl:1s}]}"
 		},
 		"frame": "task",
 		"show_toast": true,

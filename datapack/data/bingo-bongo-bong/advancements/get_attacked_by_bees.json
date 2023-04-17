@@ -7,7 +7,8 @@
 			"text": "Get stung by a bee."
 		},
 		"icon": {
-			"item": "minecraft:beehive"
+			"item": "minecraft:red_banner",
+			"nbt": "{BlockEntityTag:{Patterns:[{Pattern:bo,Color:15},{Pattern:ts,Color:4},{Pattern:tts,Color:15},{Pattern:hhb,Color:15},{Pattern:cs,Color:4},{Pattern:bs,Color:4}]}}"
 		},
 		"frame": "task",
 		"show_toast": true,

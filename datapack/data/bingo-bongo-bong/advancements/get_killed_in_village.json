@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "And it's me who's gonna leave"
+			"text": "And It's Me Who's Gonna Leave"
 		},
 		"description": {
 			"text": "Get killed in a village."
 		},
 		"icon": {
-			"item": "minecraft:dirt"
+			"item": "minecraft:acacia_door"
 		},
 		"frame": "task",
 		"show_toast": true,
