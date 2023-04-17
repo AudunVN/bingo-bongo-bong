@@ -7,7 +7,7 @@
 			"text": "Equip a piece of armor with Curse of Binding."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:golden_chestplate"
 		},
 		"frame": "task",
 		"show_toast": true,
