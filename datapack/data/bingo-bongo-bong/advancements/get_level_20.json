@@ -1,0 +1,33 @@
+{
+	"display": {
+		"title": {
+			"text": "20/20"
+		},
+		"description": {
+			"text": "Get to at least level 20."
+		},
+		"icon": {
+			"item": "minecraft:experience_bottle"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Be At Least Level 20": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"level": {
+							"min": 20
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
