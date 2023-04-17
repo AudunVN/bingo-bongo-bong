@@ -1,0 +1,32 @@
+{
+	"display": {
+		"title": {
+			"text": "Nice Shootin', Tex!"
+		},
+		"description": {
+			"text": "Kill a baby zombie with an arrow."
+		},
+		"icon": {
+			"item": "minecraft:arrow"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Kill Baby Zombie with arrow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:zombie",
+					"nbt": "{IsBaby:1b}"
+				},
+				"killing_blow": {
+					"is_projectile": true
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
