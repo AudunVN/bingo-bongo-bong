@@ -15,7 +15,23 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Kill bee while poisoned": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:bee"
+				},
+				"player": {
+					"effects": {
+						"minecraft:poison": {
+							"duration": {
+								"min": 0
+							}
+						}
+					}
+				}
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }

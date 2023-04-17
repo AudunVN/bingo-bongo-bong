@@ -1,0 +1,212 @@
+{
+	"display": {
+		"title": {
+			"text": "I'm Dyeing"
+		},
+		"description": {
+			"text": "Get all 16 dyes."
+		},
+		"icon": {
+			"item": "minecraft:purple_dye"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Get Black Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Red Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Green Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Brown Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Blue Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Purple Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Cyan Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Light Gray Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Gray Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Pink Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Lime Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Yellow Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Light Blue Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Magenta Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get Orange Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_dye"
+						]
+					}
+				]
+			}
+		},
+		"Get White Dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_dye"
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

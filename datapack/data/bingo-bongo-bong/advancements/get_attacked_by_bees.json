@@ -15,7 +15,16 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Get hurt by bee": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:bee"
+					}
+				}
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }

@@ -4,10 +4,10 @@
 			"text": "Music Man"
 		},
 		"description": {
-			"text": "Description"
+			"text": "Get a music disc."
 		},
 		"icon": {
-			"item": "minecraft:music_disk"
+			"item": "minecraft:music_disc_pigstep"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -15,7 +15,16 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Get A Music Disc": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "music_discs"
+					}
+				]
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }

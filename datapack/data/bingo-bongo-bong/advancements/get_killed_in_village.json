@@ -1,0 +1,79 @@
+{
+	"display": {
+		"title": {
+			"text": "And it's me who's gonna leave"
+		},
+		"description": {
+			"text": "Get killed in a village."
+		},
+		"icon": {
+			"item": "minecraft:dirt"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Player Gets Killed In Desert Village": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_desert"
+					}
+				}
+			}
+		},
+		"Player Gets Killed In Plains Village": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_plains"
+					}
+				}
+			}
+		},
+		"Player Gets Killed In Savanna Village": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_savanna"
+					}
+				}
+			}
+		},
+		"Player Gets Killed In Snowy Village": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_snowy"
+					}
+				}
+			}
+		},
+		"Player Gets Killed In Taiga Village": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_taiga"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Player Gets Killed In Desert Village",
+			"Player Gets Killed In Plains Village",
+			"Player Gets Killed In Savanna Village",
+			"Player Gets Killed In Snowy Village",
+			"Player Gets Killed In Taiga Village"
+		]
+	],
+	"parent": "bingo-bongo-bong:root"
+}

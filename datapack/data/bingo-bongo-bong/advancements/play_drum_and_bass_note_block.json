@@ -1,0 +1,50 @@
+{
+	"display": {
+		"title": {
+			"text": "Good Neighbor"
+		},
+		"description": {
+			"text": "Use a base drum note block and a bass note block."
+		},
+		"icon": {
+			"item": "minecraft:note_block"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Hit Drum Note Block": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:note_block"
+						],
+						"state": {
+							"instrument": "basedrum"
+						}
+					}
+				}
+			}
+		},
+		"Hit Bass Note Block": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:note_block"
+						],
+						"state": {
+							"instrument": "bass"
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

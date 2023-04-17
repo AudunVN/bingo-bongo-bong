@@ -1,0 +1,92 @@
+{
+	"display": {
+		"title": {
+			"text": "That's Not Coming Off"
+		},
+		"description": {
+			"text": "Equip a piece of armor with Curse of Binding."
+		},
+		"icon": {
+			"item": "minecraft:golden_boots"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Equip Curse Of Binding Helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"enchantments": [
+								{
+									"enchantment": "binding_curse"
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"Equip Curse Of Binding Chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"": {
+							"enchantments": [
+								{
+									"enchantment": "binding_curse"
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"Equip Curse Of Binding Leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"legs": {
+							"enchantments": [
+								{
+									"enchantment": "binding_curse"
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"Equip Curse Of Binding Boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"feet": {
+							"enchantments": [
+								{
+									"enchantment": "binding_curse"
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Equip Curse Of Binding Helmet",
+			"Equip Curse Of Binding Chestplate",
+			"Equip Curse Of Binding Leggings",
+			"Equip Curse Of Binding Boots"
+		]
+	],
+	"parent": "bingo-bongo-bong:root"
+}

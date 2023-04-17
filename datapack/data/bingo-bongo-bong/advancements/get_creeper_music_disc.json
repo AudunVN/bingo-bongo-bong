@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "An Absolute Banger"
+		},
+		"description": {
+			"text": "Get a music disc from a creeper."
+		},
+		"icon": {
+			"item": "minecraft:music_disc_cat"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Get A Creeper Music Disc": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "creeper_drop_music_discs"
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

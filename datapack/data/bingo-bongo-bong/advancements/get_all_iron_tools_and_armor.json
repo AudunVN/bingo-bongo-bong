@@ -1,0 +1,152 @@
+{
+	"display": {
+		"title": {
+			"text": "Iron Man"
+		},
+		"description": {
+			"text": "Get all iron tools and armor (including shears and bucket, not counting chainmail)."
+		},
+		"icon": {
+			"item": "minecraft:iron_chestplate"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Get Shears": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shears"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_axe"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shears"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shears"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shears"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shears"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_helmet"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_chestplate"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_leggings"
+						]
+					}
+				]
+			}
+		},
+		"Get Iron Boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_boots"
+						]
+					}
+				]
+			}
+		},
+		"Get Bucket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bucket"
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

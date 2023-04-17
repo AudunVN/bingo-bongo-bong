@@ -1,0 +1,37 @@
+{
+	"display": {
+		"title": {
+			"text": "Landlubber"
+		},
+		"description": {
+			"text": "Get the nausea effect while in a boat."
+		},
+		"icon": {
+			"item": "minecraft:pufferfish"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Get nausea effect while in boat": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"nausea": {
+						"duration": {
+							"min": 1
+						}
+					}
+				},
+				"player": {
+					"vehicle": {
+						"type": "minecraft:boat"
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

@@ -1,10 +1,10 @@
 {
 	"display": {
 		"title": {
-			"text": "This Town Ain't Big Enough for Both of Us"
+			"text": "And it ain't me who's gonna leave"
 		},
 		"description": {
-			"text": "Hurt a player or friendly mob in a village."
+			"text": "Kill a player in a village."
 		},
 		"icon": {
 			"item": "minecraft:dirt"

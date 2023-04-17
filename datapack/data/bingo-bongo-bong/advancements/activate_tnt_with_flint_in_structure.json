@@ -1,0 +1,456 @@
+{
+	"display": {
+		"title": {
+			"text": "Building Inspector"
+		},
+		"description": {
+			"text": "Use flint and steel on TNT inside a building (villages, mansion, outpost, igloos, fortress, bastion, temple and more)."
+		},
+		"icon": {
+			"item": "minecraft:tnt"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Activate TNT with Flint and Steel inside Igloo": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "igloo",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Nether Fortress": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "fortress",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Bastion Remnant": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "bastion_remnant",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Woodland Mansion": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "mansion",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Pillager Outpost": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "pillager_outpost",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Stronghold": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "stronghold",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Desert Village": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "village_desert",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Plains Village": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "village_plains",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Savanna Village": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "village_savanna",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Snowy Village": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "village_snowy",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Taiga Village": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "village_taiga",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Jungle Pyramid": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "jungle_pyramid",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Desert Pyramid": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "desert_pyramid",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside End City": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "end_city",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Swamp Hut": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "swamp_hut",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		},
+		"Activate TNT with Flint and Steel inside Ancient City": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flint_and_steel"
+					]
+				},
+				"location": {
+					"structure": "ancient_city",
+					"block": {
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "tnt"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Activate TNT with Flint and Steel inside Desert Village",
+			"Activate TNT with Flint and Steel inside Plains Village",
+			"Activate TNT with Flint and Steel inside Savanna Village",
+			"Activate TNT with Flint and Steel inside Snowy Village",
+			"Activate TNT with Flint and Steel inside Taiga Village",
+			"Activate TNT with Flint and Steel inside Ancient City",
+			"Activate TNT with Flint and Steel inside Igloo",
+			"Activate TNT with Flint and Steel inside Bastion Remnant",
+			"Activate TNT with Flint and Steel inside Nether Fortress",
+			"Activate TNT with Flint and Steel inside Woodland Mansion",
+			"Activate TNT with Flint and Steel inside Pillager Outpost",
+			"Activate TNT with Flint and Steel inside Stronghold",
+			"Activate TNT with Flint and Steel inside Jungle Pyramid",
+			"Activate TNT with Flint and Steel inside Desert Pyramid",
+			"Activate TNT with Flint and Steel inside End City",
+			"Activate TNT with Flint and Steel inside Swamp Hut"
+		]
+	],
+	"parent": "bingo-bongo-bong:root"
+}
