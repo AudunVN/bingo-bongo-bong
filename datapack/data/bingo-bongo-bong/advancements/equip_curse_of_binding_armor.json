@@ -36,7 +36,7 @@
 			"conditions": {
 				"player": {
 					"equipment": {
-						"": {
+						"chest": {
 							"enchantments": [
 								{
 									"enchantment": "binding_curse"
