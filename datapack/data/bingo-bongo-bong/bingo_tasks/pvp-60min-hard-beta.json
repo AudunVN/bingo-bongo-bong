@@ -7971,6 +7971,11 @@
 			"type": "bongo.advancement",
 			"weight": 60,
 			"value": "bingo-bongo-bong:kill_bee_while_poisoned"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:get_level_20"
 		}
 	]
 }
