@@ -7906,6 +7906,71 @@
 			"type": "bongo.advancement",
 			"weight": 100,
 			"value": "bingo-bongo-bong:use_bed_in_nether"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:kill_baby_zombie_with_arrow"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:kill_in_swamp"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:play_drum_and_bass_note_block"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:set_fire_to_bookcase"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:stand_on_bedrock"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:throw_egg_at_entity"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:get_all_iron_tools_and_armor"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:equip_curse_of_binding_armor"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:activate_tnt_with_flint_in_structure"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:get_creeper_music_disc"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:get_music_disk"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:get_nausea_in_boat"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:kill_bee_while_poisoned"
 		}
 	]
 }
