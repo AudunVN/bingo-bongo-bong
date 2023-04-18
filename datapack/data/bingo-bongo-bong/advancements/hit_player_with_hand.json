@@ -19,7 +19,12 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:player"
+					"type": "minecraft:player",
+					"distance": {
+						"absolute": {
+							"min": 0.01
+						}
+					}
 				},
 				"player": {
 					"equipment": {
