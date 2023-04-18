@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Not Headless"
+		},
+		"description": {
+			"text": "Have a head in your inventory."
+		},
+		"icon": {
+			"item": "minecraft:creeper_head"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Get A Mob Head": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "bingo-bongo-bong:mob_heads"
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
