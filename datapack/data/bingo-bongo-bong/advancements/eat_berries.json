@@ -1,0 +1,40 @@
+{
+	"display": {
+		"title": {
+			"text": "Berry Master"
+		},
+		"description": {
+			"text": "Eat all (well, both) kinds of berry."
+		},
+		"icon": {
+			"item": "minecraft:glow_berries"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Eat Glow Berries": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					]
+				}
+			}
+		},
+		"Eat Sweet Berries": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					]
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

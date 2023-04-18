@@ -1,0 +1,56 @@
+{
+	"display": {
+		"title": {
+			"text": "Idiot Sandwich"
+		},
+		"description": {
+			"text": "Eat raw meat and bread."
+		},
+		"icon": {
+			"item": "minecraft:brown_banner",
+			"nbt": "{BlockEntityTag:{Patterns:[{Pattern:bo,Color:12},{Pattern:ss,Color:12},{Pattern:cs,Color:6},{Pattern:cbo,Color:12}]}}"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Eat Raw Fish": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"tag": "bingo-bongo-bong:edible_raw_fish"
+				}
+			}
+		},
+		"Eat Raw Meat": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"tag": "bingo-bongo-bong:edible_raw_meat"
+				}
+			}
+		},
+		"Eat Bread": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:bread"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"Eat Raw Meat",
+			"Eat Raw Fish"
+		],
+		[
+			"Eat Bread"
+		]
+	]
+	"parent": "bingo-bongo-bong:root"
+}

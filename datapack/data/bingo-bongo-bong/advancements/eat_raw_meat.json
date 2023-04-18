@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "Still Finding Nemo"
+			"text": "It's RAW!"
 		},
 		"description": {
-			"text": "Eat raw fish."
+			"text": "Eat raw meat."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:beef"
 		},
 		"frame": "task",
 		"show_toast": true,

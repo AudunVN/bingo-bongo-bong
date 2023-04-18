@@ -7,7 +7,7 @@
 			"text": "Eat raw chicken."
 		},
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:chicken"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -15,7 +15,16 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Eat Raw Chicken": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chicken"
+					]
+				}
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }
