@@ -15,7 +15,14 @@
 		"hidden": false
 	},
 	"criteria": {
-
+		"Eat Raw Meat": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"tag": "bingo-bongo-bong:edible_raw_meat"
+				}
+			}
+		}
 	},
 	"parent": "bingo-bongo-bong:root"
 }
