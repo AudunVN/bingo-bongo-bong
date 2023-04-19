@@ -23,7 +23,24 @@
 					"block": {
 						"blocks": ["minecraft:fire", "minecraft:air"]
 					}
-				}
+				},
+				"player": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"looking_at": {
+										"type": "tnt"
+									}
+								}
+							}
+						}
+					}
+				]
 			}
 		}
 	},
