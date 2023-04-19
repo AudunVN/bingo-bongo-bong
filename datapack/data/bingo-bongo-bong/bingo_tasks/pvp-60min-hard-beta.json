@@ -7976,6 +7976,11 @@
 			"type": "bongo.advancement",
 			"weight": 100,
 			"value": "bingo-bongo-bong:get_level_20"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:get_mob_head"
 		}
 	]
 }
