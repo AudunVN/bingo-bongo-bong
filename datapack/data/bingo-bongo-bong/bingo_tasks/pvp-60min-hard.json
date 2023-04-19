@@ -6316,20 +6316,6 @@
 		},
 		{
 			"type": "bongo.item",
-			"weight": 40,
-			"value": {
-				"item": "minecraft:potion"
-			}
-		},
-		{
-			"type": "bongo.item",
-			"weight": 40,
-			"value": {
-				"item": "minecraft:splash_potion"
-			}
-		},
-		{
-			"type": "bongo.item",
 			"weight": 15,
 			"value": {
 				"item": "minecraft:gold_nugget"
