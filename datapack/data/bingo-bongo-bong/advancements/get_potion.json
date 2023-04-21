@@ -1,0 +1,32 @@
+{
+	"display": {
+		"title": {
+			"text": "Potioned"
+		},
+		"description": {
+			"text": "Get a (non-splash) potion."
+		},
+		"icon": {
+			"item": "minecraft:potion"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Get a potion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:potion"
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

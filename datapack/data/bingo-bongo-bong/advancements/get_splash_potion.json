@@ -1,0 +1,32 @@
+{
+	"display": {
+		"title": {
+			"text": "Make A Splash"
+		},
+		"description": {
+			"text": "Get a splash potion."
+		},
+		"icon": {
+			"item": "minecraft:splash_potion"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Get a splash potion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:splash_potion"
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

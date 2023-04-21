@@ -45,7 +45,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:shears"
+							"minecraft:iron_pickaxe"
 						]
 					}
 				]
@@ -57,7 +57,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:shears"
+							"minecraft:iron_sword"
 						]
 					}
 				]
@@ -69,7 +69,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:shears"
+							"minecraft:iron_hoe"
 						]
 					}
 				]
@@ -81,7 +81,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:shears"
+							"minecraft:iron_shovel"
 						]
 					}
 				]

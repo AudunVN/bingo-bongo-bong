@@ -1,0 +1,29 @@
+{
+	"display": {
+		"title": {
+			"text": "Broken Steel"
+		},
+		"description": {
+			"text": "Break an iron tool."
+		},
+		"icon": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Break a tool": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"durability": 0,
+				"item": {
+					"tag": "bingo-bongo-bong:iron_tools"
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"title": {
+			"text": "Bartender"
+		},
+		"description": {
+			"text": "Create a potion."
+		},
+		"icon": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Break a tool": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"durability": 0,
+				"item": {
+					"tag": "tools"
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}

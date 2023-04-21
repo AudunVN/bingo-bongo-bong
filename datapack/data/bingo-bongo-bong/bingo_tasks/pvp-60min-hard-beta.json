@@ -7972,6 +7972,21 @@
 			"type": "bongo.advancement",
 			"weight": 60,
 			"value": "bingo-bongo-bong:kill_entity_while_both_on_fire"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:get_potion"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:get_splash_potion"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:break_iron_tool"
 		}
 	]
 }
