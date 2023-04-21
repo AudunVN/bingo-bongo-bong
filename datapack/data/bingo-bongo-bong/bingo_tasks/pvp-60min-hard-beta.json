@@ -7967,6 +7967,11 @@
 			"type": "bongo.advancement",
 			"weight": 60,
 			"value": "bingo-bongo-bong:get_mob_head"
+		},
+		{
+			"type": "bongo.advancement",
+			"weight": 60,
+			"value": "bingo-bongo-bong:kill_entity_while_both_on_fire"
 		}
 	]
 }

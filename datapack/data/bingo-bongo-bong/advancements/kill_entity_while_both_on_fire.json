@@ -1,0 +1,36 @@
+{
+	"display": {
+		"title": {
+			"text": "Oh, That's Hot"
+		},
+		"description": {
+			"text": "Kill something that's on fire while you're on fire."
+		},
+		"icon": {
+			"item": "minecraft:black_banner",
+			"nbt": "{BlockEntityTag:{Patterns:[{Pattern:moj,Color:1},{Pattern:bri,Color:15},{Pattern:bt,Color:1},{Pattern:mr,Color:15},{Pattern:gru,Color:1},{Pattern:bts,Color:4},{Pattern:gra,Color:7},{Pattern:sku,Color:0}]}}"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Kill entity that's on fire while on fire": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"flags": {
+						"is_on_fire": true
+					}
+				},
+				"player": {
+					"flags": {
+						"is_on_fire": true
+					}
+				}
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
