@@ -19,10 +19,7 @@ Exploration is key, but you probably do not want to aim too hard for something r
   - PVP advancements (hurt/kill/hook other players)
   - Exploration advancements (discover/visit certain structures, go to world border, loot chests)
   - Challenge advancements
-    - Travel using nether portals (usually somebody else's after making your own)
-    - Visit the build height limit
-    - Take a bunch of damage (hopefully without dying)
-    - Get killed by a mob/player (hopefully ending with a bingo, maybe not if you're playing with a random task locking on death)
+  - See [the cheat sheet](./cheat-sheet.md) for a full list!
 - New bingo task list
   - Items and tasks in the default `pvp-60min-hard` board should cover more or less everything in 1.19.2 plus some of the custom advancements above. This should provide a lot more variety than the boards currently included with the `bingo` mod.
 
