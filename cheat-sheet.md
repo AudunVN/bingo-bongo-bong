@@ -165,40 +165,64 @@ Throw an egg at an entity, mob or player.
 ###
 get_all_iron_tools_and_armor
 
-Get 
+Get a full set of iron armor, a full set of iron tools (sword, axe, shovel, hoe) plus a bucket and shears.
 
 ###
 equip_curse_of_binding_armor
 
+Equip some armor with Curse of Binding.
+
 ###
 activate_tnt_with_flint_in_structure
+
+Use flint and steel on TNT inside a structure.
 
 ###
 get_creeper_music_disc
 
+Get a music disk from a Creeper.
+
 ###
 get_music_disk
+
+Get any music disk.
 
 ###
 get_nausea_in_boat
 
+Get nausea (by eating pufferfish) while being in a boat.
+
 ###
 kill_bee_while_poisoned
+
+Kill a bee while you're poisoned. Usually by the bee.
 
 ###
 get_level_20
 
+Get to level 20 (or above).
+
 ###
 get_mob_head
+
+Get any mob head.
 
 ###
 kill_entity_while_both_on_fire
 
+Kill an entity, mob or player while both you and it are on fire.
+
 ###
 get_potion
+
+Get any potion.
 
 ###
 get_splash_potion
 
+Get any splash potion.
+
 ###
 break_iron_tool
+
+Break an iron tool.
