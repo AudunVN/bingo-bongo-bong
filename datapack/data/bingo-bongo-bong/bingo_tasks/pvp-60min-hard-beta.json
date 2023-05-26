@@ -7835,6 +7835,11 @@
 		},
 		{
 			"type": "bongo.advancement",
+			"weight": 100,
+			"value": "bingo-bongo-bong:give_player_item"
+		},
+		{
+			"type": "bongo.advancement",
 			"weight": 60,
 			"value": "bingo-bongo-bong:use_blast_furnace"
 		},
