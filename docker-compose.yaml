@@ -26,8 +26,8 @@ services:
       FORGE_VERSION: 43.2.0
       DATAPACKS: "https://github.com/AudunVN/bingo-bongo-bong/releases/download/latest/bingo-bongo-bong.zip"
       MODS:
-        https://mediafilez.forgecdn.net/files/4046/533/Bongo-1.19.2-3.2.0.jar,
-        https://mediafilez.forgecdn.net/files/4052/778/LibX-1.19.2-4.2.8.jar
+        https://github.com/AudunVN/bingo-bongo-bong/raw/main/modpack/bongo-current.jar,
+        https://github.com/AudunVN/bingo-bongo-bong/raw/main/modpack/libx-current.jar
 
       # SYNC_SKIP_NEWER_IN_DESTINATION: "true"
       # REMOVE_OLD_MODS: "true"
