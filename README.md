@@ -1,6 +1,6 @@
 # bingo-bongo-bong
 
-Datapack with extra tasks and tweaks for playing the Minecraft mod [Bongo](https://github.com/noeppi-noeppi/Bongo). Currently tested and working with `Bongo-1.19.2-3.2.0.jar`.
+Very work-in-progress datapack with extra tasks and tweaks for playing the Minecraft mod [Bongo](https://github.com/noeppi-noeppi/Bongo). Currently tested and working with `Bongo-1.19.2-3.2.0.jar`.
 
 The latest version of the datapack can be downloaded by clicking [here](https://github.com/AudunVN/bingo-bongo-bong/releases/download/latest/bingo-bongo-bong.zip) or via the [Releases page](https://github.com/AudunVN/bingo-bongo-bong/releases) on GitHub.
 
