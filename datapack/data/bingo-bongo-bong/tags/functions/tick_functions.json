@@ -1,6 +1,7 @@
 {
 	"values": [
 		"bingo-bongo-bong:patches/set_mob_pickup_rate",
-		"bingo-bongo-bong:advancements/health_check"
+		"bingo-bongo-bong:advancements/half_a_health_check",
+		"bingo-bongo-bong:advancements/ten_tasks_check"
 	]
 }
