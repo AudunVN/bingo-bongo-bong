@@ -19,23 +19,13 @@
 		"Kill 100 mobs": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"killing_blow": {
-					"source_entity": {
-						"type_specific": {
-							"type": "player",
-							"advancements": {
-								"bingo-bongo-bong:get_stone": true
-							}
-						}
-					}
-				},
 				"player": [
 					{
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
 							"bingo_bongo.kill_count": {
-								"min": 5
+								"min": 100
 							}
 						}
 					}
