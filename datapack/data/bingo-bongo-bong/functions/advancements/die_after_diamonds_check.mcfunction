@@ -1,0 +1,1 @@
+execute if predicate bingo-bongo-bong:has_diamonds_advancement run advancement grant @s only bingo-bongo-bong:die_after_diamonds

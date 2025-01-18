@@ -1,0 +1,1 @@
+execute if predicate bingo-bongo-bong:has_get_stone_advancement run advancement revoke @s only bingo-bongo-bong:get_stone

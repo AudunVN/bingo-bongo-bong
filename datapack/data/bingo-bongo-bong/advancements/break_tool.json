@@ -20,7 +20,7 @@
 			"conditions": {
 				"durability": 0,
 				"item": {
-					"tag": "tools"
+					"tag": "minecraft:tools"
 				}
 			}
 		}

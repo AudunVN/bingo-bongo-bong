@@ -1,13 +1,13 @@
 {
 	"display": {
 		"title": {
-			"text": "And It Was Going So Well"
+			"text": "...Stone Age 3"
 		},
 		"description": {
-			"text": "Die after getting a diamond."
+			"text": "Get Stone Age a third time. My condolences."
 		},
 		"icon": {
-			"item": "minecraft:diamond"
+			"item": "minecraft:smooth_stone"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -15,7 +15,7 @@
 		"hidden": false
 	},
 	"criteria": {
-		"Die After Getting A Diamond": {
+		"Get Stone After Dying Twice": {
 			"trigger": "minecraft:impossible"
 		}
 	},
