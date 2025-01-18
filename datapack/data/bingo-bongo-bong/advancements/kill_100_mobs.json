@@ -1,0 +1,47 @@
+{
+	"display": {
+		"title": {
+			"text": "You Monster",
+			"color": "red"
+		},
+		"description": {
+			"text": "Kill a hundred mobs."
+		},
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"Kill 100 mobs": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"source_entity": {
+						"type_specific": {
+							"type": "player",
+							"advancements": {
+								"bingo-bongo-bong:get_stone": true
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"bingo_bongo.kill_count": {
+								"min": 5
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "bingo-bongo-bong:root"
+}
