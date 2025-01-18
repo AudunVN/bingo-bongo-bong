@@ -2,12 +2,10 @@
 	"condition": "entity_properties",
 	"entity": "this",
 	"predicate": {
-		"player": {
-			"type_specific": {
-				"type": "player",
-				"advancements": {
-					"minecraft:story/mine_diamond": true
-				}
+		"type_specific": {
+			"type": "player",
+			"advancements": {
+				"minecraft:story/mine_diamond": true
 			}
 		}
 	}
