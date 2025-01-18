@@ -1,0 +1,2 @@
+execute as @a unless score @s bingo_bongo.death_check_count matches -2147483648..2147483647 run scoreboard players set @s bingo_bongo.death_check_count 0
+execute as @a unless score @s bingo_bongo.lives_with_stone_count matches -2147483648..2147483647 run scoreboard players set @s bingo_bongo.lives_with_stone_count 0
